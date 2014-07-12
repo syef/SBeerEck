@@ -4,5 +4,7 @@
     <string name="app_name">SBeerEck</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="acceuil">Bienvenue</string>
+    <string name="quit">Quitter</string>
 
 </resources>

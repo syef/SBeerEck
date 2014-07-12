@@ -8,21 +8,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tabascoloc.sbeereck.MainActivity" >
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/logo_sbeer_eck" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/titre"
+        android:text="@string/quit" />
 
     <TextView
         android:id="@+id/titre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="53dp"
+        android:layout_marginTop="24dp"
         android:text="@string/acceuil" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/logo_sbeer_eck" />
 
 </RelativeLayout>
