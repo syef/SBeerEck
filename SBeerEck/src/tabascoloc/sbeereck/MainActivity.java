@@ -4,19 +4,14 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
+
 
 
 public class MainActivity extends ActionBarActivity {
-	private TextView texte = null;
-		
-    @Override
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
-        texte = new TextView(this);
-        texte.setText("Bonjour, vous me devez 1 000 000€.");
-        setContentView(texte);
+        setContentView(R.layout.activity_main);
     }
 
 
